@@ -71,7 +71,7 @@ body {
 
 nav {
 	display: inline-block;
-	padding: 0 20px;
+	padding: 20px 20px;
 	text-align: center;
 }
 
@@ -84,8 +84,9 @@ nav a {
 }
 
 .logo {
-	display: inline-block;
-	padding: 10px 0 50px 100px;
+	float: right;
+	margin: 10px 60px 10px; 0;
+	padding: 20px 20px 50px 0x;
 }
 
 header, .below-image {
@@ -119,16 +120,20 @@ header, .below-image {
 .innovation-text a:hover {
 	animation-name: change-color;
 	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 
 @keyframes change-color {
 	0% {
+		opacity: 0.5;
+	}
+
+	50% {
 		opacity: 1;
 	}
 	
 	100% {
 		opacity: 0.5;
-		color: wheat;
 	}
 }
 
@@ -169,6 +174,9 @@ img {
 	padding: 10px 0;
 }
 
+.contact address p {
+	padding:  2px 0;
+}
 
 footer {
 	display: inline-block;
