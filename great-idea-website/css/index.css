@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	padding: 0 20px;
+	text-align: center;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	width: 70px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.logo {
+	display: inline-block;
+	padding: 10px 0 50px 100px;
+}
+
+header, .below-image {
+	margin: 40px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid black;
+}
+
+.innovation-text {
+	display: inline-block;
+	text-align: center;
+	width: 400px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.innovation-text h1 {
+	font-size: 70px;
+	padding: 20px;
+	margin: 10px;
+	width: 310px;
+}
+
+.innovation-text p {
+	border: 1px solid black;
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.innovation-text a:hover {
+	animation-name: change-color;
+	animation-duration: 3s;
+}
+
+@keyframes change-color {
+	0% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0.5;
+		color: wheat;
+	}
+}
+
+header img {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	margin-left: 70px;
+}
+
+.above-image, .below-image { 
+	margin: 40px 0;
+}
+
+.above-image .sub-section {
+	width: 450px;
+	padding: 0 0 0 30px;
+	display: inline-block;
+}
+
+img {
+	margin: 0 0 0 30px;
+}
+
+
+.below-image .sub-section {
+	width: 325px;
+	padding: 0 30px;
+	display: inline-block;
+}
+
+.contact {
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.contact p {
+	padding: 10px 0;
+}
+
+
+footer {
+	display: inline-block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0;
+}
