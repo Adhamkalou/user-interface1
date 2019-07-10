@@ -64,16 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-body{
-    -webkit-transform: scale(0.67);
-       -moz-transform: scale(0.67);
-            transform: scale(0.67);
-}
-
-
 body {
-	font-family: 'Audiowide', cursive;
+	font-family: 'Orbitron';
 	margin: auto;
 	width: 876px
 }
@@ -101,7 +93,7 @@ nav li a {
 	transition: color 2s ease;
 }
 nav li a:hover {
-	color: #rgb(212, 68, 68);
+	color: yellow;
 	text-decoration: underline;
 	transition: color 2s ease;
 }
